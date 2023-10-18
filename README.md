@@ -1,6 +1,6 @@
 # Investor Database
 
-Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from (Visible Connect)[https://connect.visible.vc/investors]
+Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from [Visible Connect](https://connect.visible.vc/investors)
 
 ## How does it work?
 
