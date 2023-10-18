@@ -9,9 +9,9 @@ Proof of concept for an aggregated database of startup investors enriched from m
 3. Server transforms data into desired format and sends to client
 4. Client builds react-table with filters 
 
-🚧 Warning
-
-Visible's API has rate limits, refreshing too often will cause errors and the app will get stuck while loading data. Wait 1 minute and refresh if you run into this issue.
+> 🚧 Warning
+> 
+> Visible's API has rate limits, refreshing too often will cause errors and the app will get stuck while loading data. Wait 1 minute and refresh if you run into this issue.
 
 ## Architecture
 
