@@ -27,7 +27,11 @@ Simple React SPA hosted on Firebase. Many best practices skipped for the sake of
 - Authentication
 - Proper styling and classes
 
-## Pre-requisites
+## Live demo
+
+You can find a live hosted version of the app [here](https://planet-a-2f5ad.web.app).
+
+## Pre-requisites for local development
 
 1. You need to have Python installed (3.10 recommended)
 2. You need to have Docker installed if you'd like to run the container locally
