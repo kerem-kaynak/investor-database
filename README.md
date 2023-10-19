@@ -1,6 +1,6 @@
 # Investor Database
 
-Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from [Visible Connect](https://connect.visible.vc/investors)
+Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from [Visible Connect](https://connect.visible.vc/investors). Simple React SPA hoested on Firebase with a Containerized Flask server.
 
 ## How does it work?
 
@@ -12,24 +12,6 @@ Proof of concept for an aggregated database of startup investors enriched from m
 > 🚧 Warning
 > 
 > Visible's API has rate limits, refreshing too often will cause errors and the app will get stuck while loading data. Wait 1 minute and refresh if you run into this issue.
-
-## Architecture
-
-### Backend
-
-Containerized Flask server with gunicorn, deployed on Google Cloud Run. Super lightweight REST API. Many essential components missing for the sake of a simple working prototype, including but not limited to:
-- Authentication & Authorization
-- Security features like stricter CORS policy
-- Proper routing and blueprints
-
-### Frontend
-
-Simple React SPA hosted on Firebase. Many best practices skipped for the sake of a simple working prototype, including but not limited to:
-- Proper routing
-- Component structure
-- Async requests
-- Authentication
-- Proper styling and classes
 
 ## Live demo
 
