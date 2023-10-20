@@ -1,6 +1,6 @@
 # Investor Database
 
-Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from [Visible Connect](https://connect.visible.vc/investors). Simple React SPA hoested on Firebase with a Containerized Flask server.
+Proof of concept for an aggregated database of startup investors enriched from multiple data sources. Currently only using dummy data (first 500 entries) from [Visible Connect](https://connect.visible.vc/investors). Simple React SPA hosted on Firebase with a Containerized Flask server.
 
 ## How does it work?
 
